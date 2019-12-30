@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-base",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:edumoreira1506/nodejs-base.git",
+  "author": "Eduardo Moreira <contato@eduardoem.com.br>",
+  "license": "MIT"
+}
