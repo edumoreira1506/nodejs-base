@@ -6,7 +6,11 @@ const create = async () => {
     password: 'Security'
   }
 
-  await UserSchema.create(user)
+  try {
+    await UserSchema.create(user)
+  } catch (error) {
+    console.error(error)
+  }
 }
 
 module.exports = {

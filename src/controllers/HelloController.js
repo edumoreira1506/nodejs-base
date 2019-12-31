@@ -3,7 +3,11 @@ const User = require('../models/User');
 const index = async (req, res) => {
   res.send('Hello world!')
 
-  await User.create()
+  try {
+    await User.create()
+  } catch (error) {
+    console.error(error)
+  }
 
   console.log('Sample user created!')
 }
