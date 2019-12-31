@@ -6,8 +6,9 @@ This is my nodejs project base. For start, you need to install:
 
 ```
 NodeJS >= 10.17
-Yarn>= 1.21
-MongoDB>= 3.6
+Yarn >= 1.21
+MongoDB >= 3.6
+Nodemon >= 2.0
 ```
 
 Clone the project.
@@ -25,5 +26,10 @@ $ cp .env.example .env
 Install all packages and run.
 ```console
 $ yarn
-$ node app
+$ yarn start
+```
+
+For run tests.
+```console
+$ yarn test
 ```
