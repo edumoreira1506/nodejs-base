@@ -28,3 +28,8 @@ Install all packages and run.
 $ yarn
 $ yarn start
 ```
+
+For run tests.
+```console
+$ yarn test
+```
